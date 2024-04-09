@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Contact Form</title>
+  <title>Profile Picture</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
 
@@ -24,12 +24,16 @@
         action="https://formspree.io/f/xyyrbjwz"
         method="POST">
 			
-      <h2 class="sm-view">Let's Chat</h2>
-           <p>* Required</p>
-          <input type="text" placeholder="Name *"  />
-          <input type="email" placeholder="Email *" />
-          <textarea name="message" rows="4" placeholder="Message"></textarea>
-			    <button>Submit</button>
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
 		</form>
       </div>
     </div>
